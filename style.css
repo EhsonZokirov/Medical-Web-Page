@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/* .all{
+  
+} */
+.header {
+  background-color: #5d5df9;
+  height: 100vh;
+}
+.noubar {
+  display: flex;
+  color: white;
+  width: 100%;
+  padding-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.left {
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: 40px;
+}
+.left div:first-child {
+  font-weight: 900;
+}
+.potolock a:hover {
+  color: orange;
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.right .login {
+  padding: 10px;
+  padding-right: 80px;
+}
+.right .join {
+  align-items: center;
+  margin-right: 120px;
+  padding: 15px 40px 1px 40px;
+  background-color: #1bc768;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 85px;
+}
+.login a:hover {
+  color: orange;
+}
+.join:hover {
+  background-color: orange;
+}
+.context {
+  position: relative;
+  left: 30%;
+  margin: 0;
+  text-align: center;
+  padding-top: 10%;
+  width: 40%;
+}
+.context p:first-child:hover {
+  color: orange;
+}
+.context p:first-child {
+  color: #1bc768;
+}
+.context h1 {
+  color: white;
+}
+.context p:last-child {
+  color: white;
+}
+.context .button1 {
+  background-color: #1bc768;
+  border-radius: 5px;
+  border: 1px solid #1bc768;
+  padding: 15px 40px;
+  color: white;
+}
+.context .button2 {
+  background: #5d5df9;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #1bc768;
+  padding: 15px 40px;
+}
+.context .button1:hover {
+  color: white;
+  color: black;
+}
+.context .button2:hover {
+  color: #ffffff;
+  color: orange;
+}
+
+/* BODY */
+#fason {
+  color: #1bc768;
+}
+
+.body {
+  margin: 0;
+  background-color: #26335d;
+}
+.text2 {
+  padding: 80px;
+  width: 80%;
+  font-size: 14px;
+}
+.text2 h1 {
+  padding-left: 10px;
+}
+.text2 p,
+h1 {
+  color: white;
+}
+.doctors {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  text-align: center;
+  background-color: white;
+  width: 20%;
+  /* border: 1px solid gray; */
+  border-radius: 20px;
+}
+.card:hover {
+  opacity: 0.9;
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card .icon img {
+  width: 16px;
+  border-radius: 0%;
+  padding-bottom: 15px;
+}
+.card h1 {
+  color: #252b42;
+  font-size: 16px;
+}
+.card p {
+  color: #737373;
+}
+.card h1,
+p {
+  padding: 10px;
+}
+.taz {
+  text-align: center;
+  padding: 50px;
+  background-color: #26335d;
+}
+#white {
+  color: white;
+}
+form {
+  width: 550px;
+  margin: auto;
+}
+#subscribe {
+  border: none;
+  z-index: 2;
+  margin-right: -7px;
+  padding: 11.5px 5px 11px 20px;
+  width: 300px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+label {
+  font-size: 12px;
+  color: white;
+  background-color: #1bc768;
+  padding: 12px 10px 11px 10px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+label:hover {
+  background-color: orange;
+}
+footer {
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #26335d;
+}
+.fosila a:hover {
+  color: #1bc768;
+}
+.fosila1 a {
+  color: #1bc768;
+  padding: 3px 5px 15px 0px;
+  font-weight: 900;
+}
+.fosila {
+  font-size: 13px;
+}
+.bottom  {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom a {
+  color: black;
+
+}
+.chap a {
+  width: 50%;
+}
+.rost  {
+  width: 15%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.rost img:hover {
+  opacity: 0.5;
+}
